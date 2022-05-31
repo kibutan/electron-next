@@ -2,6 +2,8 @@
   "private": true,
   "main": "main/index.js",
   "productName": "ElectronTypescriptNext",
+  "version": "0.0.1",
+  "name": "electron-typescript-next",
   "scripts": {
     "clean": "rimraf dist main renderer/out renderer/.next",
     "dev": "npm run build-electron && electron .",
